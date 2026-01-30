@@ -1,0 +1,22 @@
+{
+  "name": "blackbot",
+  "version": "1.0.0",
+  "description": "A bot for multiplayerpiano",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "buildercat00",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "latest",
+    "chalk": "^4.1.2",
+    "express": "^5.2.1",
+    "midi-file": "latest",
+    "midi-file-parser": "latest",
+    "midi-player-js": "latest",
+    "mpp-client-net": "^1.2.3",
+    "node-downloader-helper": "latest",
+    "socket.io": "^4.8.3"
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "uri": "Wss", // Wss of MPPserver
+    "tokens": ["Token1", "Token2", "Token3"], // Ask Staff for Tokens, then put them here
+    "maxDownload": 1000000,
+    "path": "./midis/", // Path to midis
+    "channel": "", // Room to join
+    "buffer": 2000,
+    "length": 512,
+    "list": 5,
+    "nq": 12000000,
+    "fastLoad": false,
+    "player": "midi-player-js-fixed", // "midi-player-js-fixed" or "midi-player-js" (It's wil automatically use "midi-player-js-fixed")
+    "client": "mpp-client-net",
+    "name": "", // Bot Name
+    "color": "", // Bot Color
+    "botColors": ["#FFFF00", "#FF0000", "#0000FF", "#FFC0CB", "#00FF00", "#FFD700", "#000000", "#FFFFFF"], // Bot Colors if you have more bots!
+    "botColorMode": ["animated", "animated", "animated", "animated", "animated", "animated", "animated", "animated"], // Color modes for each bot color ("rainbow" or "animated")
+    "colorScheme": "dark", // "dark" or "light" (Bot Color)
+    "prefix": "", // Command prefix, e.g. "!" -> !help
+    "console": true,
+    "playerbuffer": 0,
+    "notebuffer": 0,
+    "lagmidi": 210,
+    "userkey": true,
+    "deblack": false,
+    "cpu": 1000,
+    "cursor": { 
+        "mode": "", // This works only when you have code connected!
+        "interval": 50,
+        "timeout": 0 
+    },
+    "rainbow": {
+        "data": [
+            "#6B0000", "#7A3E00", "#6B6B00", "#006400", "#003366", "#3B1F6B", "#2B2B2B", "#111111"
+        ],
+        "mode": "both",
+        "interval": 2000,
+        "timeout": 6666,
+        "speed": 2
+    },
+    "allowed": ["Your ID here"], // IDs allowed to use the bot commands
+    "staffKey": "Your Staff Key here" // Staff Key for connecting with bot
+}
